@@ -4,10 +4,7 @@ import json
 
 import pandas as pd
 
-# In your terminal please set your environment variables by running the following lines of code.
-# export 'CONSUMER_KEY'='<your_consumer_key>'
-# export 'CONSUMER_SECRET'='<your_consumer_secret>'
-
+# Read required keys from config
 consumer_key = config.API_KEY
 consumer_secret = config.API_KEY_SECRET
 
